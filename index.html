@@ -387,10 +387,15 @@
      result: "승" | "패" | "홀드" | "ND"
      ════════════════════════════════ */
   const GAMES = [
-    // { date:"4.01", opponent:"두산", result:"홀드", innings:"1⅓", er:0, pitches:20, label:"멀티아웃" },
-    // { date:"4.05", opponent:"KT",   result:"홀드", innings:"1",   er:0, pitches:16, label:"" },
-    // { date:"4.10", opponent:"KIA",  result:"ND",   innings:"1⅔", er:1, pitches:28, label:"" },
-  ];
+  { date:"5.03", opponent:"한화", result:"ND", innings:"1",   er:0, pitches:20, label:"" },
+  { date:"5.01", opponent:"한화", result:"홀드", innings:"⅓",  er:0, pitches:6,  label:"" },
+  { date:"4.30", opponent:"두산", result:"ND", innings:"⅔",  er:0, pitches:10, label:"" },
+  { date:"4.28", opponent:"두산", result:"ND", innings:"⅓",  er:1, pitches:12, label:"" },
+  { date:"4.24", opponent:"키움", result:"ND", innings:"2⅔", er:0, pitches:32, label:"" },
+  { date:"4.23", opponent:"SSG", result:"홀드", innings:"1",   er:0, pitches:14, label:"" },
+  { date:"4.21", opponent:"SSG", result:"ND", innings:"1",   er:0, pitches:14, label:"" },
+  { date:"4.18", opponent:"LG",  result:"승", innings:"1⅓", er:0, pitches:22, label:"첫 승!" },
+];
 
   /* ── 렌더 ── */
   function resultClass(r) {
